@@ -1,0 +1,153 @@
+
+
+#container2{
+position:relative;
+background-image:url('images/flag.jpg');
+width:70%;
+margin:auto auto;
+border:2px solid black;
+max-height:800px;
+}
+
+
+#trump{
+position:relative;
+left:185px;
+top:85px;
+z-index:1;
+}
+
+#hair{
+position:relative;
+z-index:4;
+left:5px;
+top:45px;
+-webkit-animation: rotate 3s ease-in-out infinite;
+}
+
+#trumpclick{
+font-size:18px;
+position:relative;
+z-index:4;
+left:180px;
+top:-200px;
+border:2px solid black;
+padding:5px;
+width:150px;
+background:white;
+z-index:5;
+}
+
+@-webkit-keyframes rotate {
+	50%  { -webkit-transform: rotate(-15deg) translateY(-10px); }
+}
+
+
+#lectern{
+position: relative;
+
+top:20px;
+left:50px;
+z-index:2;
+}
+
+#turd{
+position: relative;
+top:-600px;
+left:185px;
+z-index:3;
+display:none;
+}
+
+.poop{
+z-index:3
+}
+
+
+
+.poopclass2{
+-webkit-animation: marm 2s ease-in forwards;
+-moz-animation: marm 2s ease-in forwards;
+animation: marm 2s ease-in forwards;
+}
+
+
+.poop2class {
+position: relative;
+transform-origin:50% 50%;
+  transition-property: transform;
+  transition-duration: 1.5s;
+  transition-timing-function: linear;
+}
+
+
+.down {
+
+  transform: translateY(100px);
+
+}
+
+
+
+@-webkit-keyframes marm{
+   from {
+        top:370px;
+
+    }
+    to {
+        top:850px;
+
+	
+
+    }
+}
+
+@-moz-keyframes marm{
+   from {
+        top:370px;
+
+    }
+    to {
+        top: 850px;
+
+	
+
+    }
+}
+
+@keyframes marm{
+   from {
+        top:370px;
+
+    }
+    to {
+        top: 850px;
+
+	
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

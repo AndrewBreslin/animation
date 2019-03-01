@@ -1,0 +1,83 @@
+#container{
+width:1000px;
+height:1000px;
+background-image:url("../images/dinner.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+margin: 0 auto;
+min-width:1000px;
+position:absolute;
+top:0;
+left:0;
+bottom:0;
+right:0;
+border: 5px solid black;
+}
+
+
+#tim {
+position: relative;
+left:21%;
+top:3%;
+width:600px;
+
+
+
+}
+
+
+#back{
+width:200px;
+border:2 px solid black;
+background: yellow;
+position:absolute;
+top:800px;
+font-size:2em;
+padding:10px;
+}
+
+
+
+@-webkit-keyframes rotate {
+	10% {-webkit-transform: rotate(5deg) translateX(15px);}
+	20% {-webkit-transform: rotate(-5deg) translateX(5px);}
+	40%  { -webkit-transform: rotate(-8deg) translateY(-15px);}
+	50% { -webkit-transform: rotate(8deg) translateX(-10px);}
+	60 {-webkit-transform: rotate(5deg) translateX(-5px);}
+	80% {-webkit-transform: rotate(-8deg) translateX(5px);}
+}
+
+@-moz-keyframes rotate {
+	10% {-moz-transform: rotate(5deg) translateX(15px);}
+	20% {-moz-transform: rotate(-5deg) translateX(5px);}
+	40%  { -moz-transform: rotate(-8deg) translateY(-15px);}
+	50% { -moz-transform: rotate(8deg) translateX(-10px);}
+	60 {-moz-transform: rotate(5deg) translateX(-5px);}
+	80% {-moz-transform: rotate(-8deg) translateX(5px);}
+}
+
+
+@keyframes rotate {
+	10% {transform: rotate(5deg) translateX(15px);}
+	20% {transform: rotate(-5deg) translateX(5px);}
+	40%  {transform: rotate(-8deg) translateY(-15px);}
+	50% {transform: rotate(8deg) translateX(-10px);}
+	60 {transform: rotate(5deg) translateX(-5px);}
+	80% {transform: rotate(-8deg) translateX(5px);}
+}
+
+
+
+.animation{
+
+-webkit-animation: rotate .45s ease-in-out infinite;
+-moz-animation: rotate .45s ease-in-out infinite;
+animation: rotate .45s ease-in-out infinite;
+
+
+}
+
+.counterclockwise {
+
+  transform: rotate(-20deg);
+}

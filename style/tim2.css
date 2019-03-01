@@ -1,0 +1,49 @@
+body{
+background-image:url("../images/field.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+
+#tim {
+position: relative;
+left:600px;
+top:150px;
+width:300px;
+transform-origin:50% 50%;
+  transition-property:  transform;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+
+}
+
+
+.down {
+
+  transform: translateY(100px);
+
+}
+
+.up {
+
+  transform: translateY(-100px);
+}
+
+.left{
+
+  transform: translateX(-100px);
+}
+
+.right {
+
+  transform: translateX(100px);
+}
+
+.clockwise {
+
+  transform: rotate(445deg);
+}
+.counterclockwise {
+
+  transform: rotate(-945deg);
+}

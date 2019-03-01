@@ -1,0 +1,128 @@
+body{
+background-image:url(Brandenburg-Gate-West-Berlin.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+
+#sara{
+position:absolute;
+top:680px;
+left:1000px;
+
+z-index:1
+}
+
+
+
+#fluffnofoot{
+position:absolute;
+top:193px;
+left:666px;
+z-index:0;
+
+}
+
+#fluffoot{
+
+position:absolute;
+top:681px;
+left:414px;
+
+
+}
+
+#saralegs{
+position:absolute;
+top:640px;
+left:1060px;
+z-index:1;
+display:none;
+
+}
+
+.animate{
+-webkit-animation: flufflip 2s forwards;
+-moz-animation: flufflip 2s forwards;
+animation: flufflip 2s forwards;
+z-index:2;
+
+transform-origin:70% 30%;
+
+}
+
+.moveup{
+-webkit-animation: moveupa .3s forwards;
+-moz-animation: moveupa .3s forwards;
+animation: moveupa .3s forwards;
+
+}
+
+.drop{
+-webkit-animation: dropa .3s forwards;
+-moz-animation: dropa .3s forwards;
+animation: dropa .3s forwards;
+transform-origin:50% 50%;
+}
+
+
+
+
+
+
+@-webkit-keyframes dropa {
+	100%  { -webkit-transform: translateY(300px) ; 
+	}
+	
+
+}
+@keyframes dropa {
+	100%  { transform: translateY(340px) rotate(460deg) ; 
+
+	}
+}
+@-moz-keyframes dropa {
+	100%  { -moz-transform: tranalateY(300px) ; 
+
+	}
+}
+
+
+
+
+
+
+
+
+@-webkit-keyframes moveupa {
+	100%  { -webkit-transform: translateY(-50px) ; 
+
+	}
+}
+@keyframes moveupa {
+	100%  { transform: translateY(-50px) ; 
+
+	}
+}
+@-moz-keyframes moveupa {
+	100%  { -moz-transform: tranalateY(-50px) ; 
+
+	}
+}
+
+
+@-webkit-keyframes flufflip {
+	50%  { -webkit-transform: rotate(-170deg) ; 
+
+	}
+}
+@keyframes flufflip {
+	50%  { transform: rotate(-170deg) ; 
+
+	}
+}
+@-moz-keyframes flufflip {
+	50%  { -moz-transform: rotate(-170deg) ; 
+
+	}
+}

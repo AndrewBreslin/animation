@@ -1,0 +1,172 @@
+body{
+background-image:url("../images/field.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+
+
+#tim{
+position: relative;
+left:600px;
+top:150px;
+width:300px;
+transform-origin:50% 50%;
+}
+
+
+.right{-webkit-animation: right 2s forwards;
+-moz-animation: right 2s forwards;
+animation: right 2s forwards;}
+
+.left{-webkit-animation: left 2s forwards;
+-moz-animation: left 2s forwards;
+animation: left 2s forwards;}
+
+.up{-webkit-animation: up 2s forwards;
+-moz-animation: up 2s forwards;
+animation: up 2s forwards;}
+
+.down{-webkit-animation: down 2s forwards;
+-moz-animation: down 2s forwards;
+animation: down 2s forwards;}
+
+.clockwise{
+
+-webkit-animation: cwise 2s forwards;
+-moz-animation: cwise 2s forwards;
+animation: cwise 2s forwards;
+
+
+
+
+}
+
+.counterclockwise{
+
+-webkit-animation: ccwise 2s forwards;
+-moz-animation: ccwise 2s forwards;
+animation: ccwise 2s forwards;
+
+
+}
+
+
+
+
+@-webkit-keyframes ccwise {
+	50%  { -webkit-transform: rotate(-170deg) ; 
+
+	}
+}
+@keyframes ccwise {
+	50%  { transform: rotate(-170deg) ; 
+
+	}
+}
+@-moz-keyframes ccwise {
+	50%  { -moz-transform: rotate(-170deg) ; 
+
+	}
+}
+
+
+
+
+
+@-webkit-keyframes cwise {
+	50%  { -webkit-transform: rotate(170deg) ; 
+
+	}
+}
+@keyframes cwise {
+	50%  { transform: rotate(170deg) ; 
+
+	}
+}
+@-moz-keyframes cwise {
+	50%  { -moz-transform: rotate(170deg) ; 
+
+	}
+}
+
+
+
+@-webkit-keyframes up {
+	50%  { -webkit-transform: translateY(-100px) ; 
+
+	}
+}
+@keyframes up {
+	50%  { transform: translateY(-100px) ; 
+
+	}
+}
+@-moz-keyframes up {
+	50%  { -moz-transform: translateY(-100px) ; 
+
+	}
+}
+
+
+
+
+
+
+@-webkit-keyframes down {
+	100%  { -webkit-transform: translateY(100px) ; 
+
+	}
+}
+@keyframes down {
+	100%  { transform: translateY(100px) ; 
+
+	}
+}
+@-moz-keyframes down {
+	100%  { -moz-transform: translateY(100px) ; 
+
+	}
+}
+
+
+
+
+
+@-webkit-keyframes left {
+	50%  { -webkit-transform: translateX(-100px) ; 
+
+	}
+}
+@keyframes left {
+	50%  { transform: translateX(-100px) ; 
+
+	}
+}
+@-moz-keyframes left {
+	50%  { -moz-transform: tranalateX(-100px) ; 
+
+	}
+}
+
+
+
+@-webkit-keyframes right {
+	100% { -webkit-transform: translateX(100px) ; 
+
+	}
+}
+@keyframes right{
+	 100% { transform: translateX(100px) ; 
+
+	}
+}
+@-moz-keyframes right {
+	100% { -moz-transform: tranalateX(100px) ; 
+
+	}
+}
+
+
+
+

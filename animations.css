@@ -1,0 +1,164 @@
+
+
+
+#guy3{
+
+-webkit-animation: marm2 6s forwards;
+-moz-animation: marm2 6s forwards;
+animation: marm2 6s forwards;
+
+}
+
+#marm{
+position:relative;
+left:753px;
+top:-900px;
+-webkit-animation: marm 3s ease-in forwards;
+-moz-animation: marm 3s ease-in forwards;
+animation: marm 3s ease-in forwards;
+z-index:1;
+
+}
+#guy{
+position:relative;
+left:243px;
+top:510px;
+	-webkit-animation: rock .2s ease-in-out infinite;
+	-moz-animation: rock .2s ease-in-out infinite;
+	animation: rock .2s ease-in-out infinite;
+z-index:-1;
+
+}
+
+#guy2{
+position:absolute;
+left:700px;
+top:530px;
+-webkit-animation: guymove2 3s forwards;
+-moz-animation: guymove2 3s forwards;
+animation: guymove2 3s forwards;
+
+z-index:-2;
+}
+
+#guy3{
+position:absolute;
+left:1200px;
+top:670px;
+-webkit-animation: guymove3 6s forwards;
+-moz-animation: guymove3 6s forwards;
+animation: guymove3 6s forwards;
+
+
+z-index:-3;
+}
+@-webkit-keyframes marm{
+   from {
+        top:-1400px;
+
+    }
+    to {
+        top: 450px;
+
+	
+
+    }
+}
+
+@-moz-keyframes marm{
+   from {
+        top:-1400px;
+	
+    }
+    to {
+        top: 450px;
+	
+
+    }
+}
+
+@keyframes marm{
+   from {
+        top:-1400px;
+
+    }
+    to {
+        top: 450px;
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes rock {
+	50%  { -webkit-transform: rotate(-5deg) translateY(-10px); 
+
+	}
+}
+@keyframes rock {
+	50%  { transform: rotate(-5deg) translateY(-10px); 
+
+	}
+}
+@-moz-keyframes rock {
+	50%  { -moz-transform: rotate(-5deg) translateY(-10px); 
+
+	}
+}
+
+
+
+
+@-webkit-keyframes guymove2 {
+	100%  { -webkit-transform:   TranslateX(-300px); 
+
+	}
+}
+@keyframes guymove2 {
+	100%  { transform:   TranslateX(-300px); 
+
+	}
+}
+@-moz-keyframes guymove2 {
+	100%  { -moz-transform:  TranslateX(-300px); 
+
+	}
+}
+
+
+
+
+@-webkit-keyframes guymove3 {
+	100%  { -webkit-transform: scale(5,5) translateY(300px) TranslateX(300px); 
+
+	}
+}
+@keyframes guymove3 {
+	100%  { transform: scale(5,5) translateY(300px) TranslateX(300px); 
+
+	}
+}
+@-moz-keyframes guymove3 {
+	100%  { -moz-transform: scale(5,5) translateY(300px) TranslateX(300px); 
+
+	}
+}
+

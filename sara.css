@@ -1,0 +1,20 @@
+body{
+background-image:url(Brandenburg-Gate-West-Berlin.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+#sara{
+position:absolute;
+left:910px;
+top:760px;
+width:200px;
+}
+
+#fluff{
+position:absolute;
+width:1300px;
+left:200px;
+top:180px;
+}
+

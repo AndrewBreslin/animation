@@ -1,0 +1,85 @@
+#container{
+width:1000px;
+height:1000px;
+background-image:url("../images/adamandbeer.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+margin: 0 auto;
+
+position:absolute;
+top:0;
+left:0;
+bottom:0;
+right:0;
+border: 5px solid black;
+}
+
+
+#adam {
+position: relative;
+left:26%;
+top:-15%;
+width:560px;
+display:block;
+
+
+}
+
+
+
+#back{
+width:200px;
+border:2 px solid black;
+background: yellow;
+position:absolute;
+top:800px;
+font-size:2em;
+padding:10px;
+}
+
+
+@-webkit-keyframes rotate {
+	0% {-webkit-transform: rotate(2deg) translateX(10px);}
+	10% {-webkit-transform: rotate(4deg) translateX(15px);}
+	20% {-webkit-transform: rotate(-4deg) translateX(5px);}
+	40%  { -webkit-transform: rotate(-6deg) translateY(-15px);}
+	50% { -webkit-transform: rotate(6deg) translateX(-10px);}
+	60 {-webkit-transform: rotate(3deg) translateX(-5px);}
+	80% {-webkit-transform: rotate(-7deg) translateX(5px);}
+	100%{-webkit-transform: rotate(-3deg) translateX(2px);}
+}
+
+@-moz-keyframes rotate {
+	10% {-moz-transform: rotate(4deg) translateX(15px);}
+	20% {-moz-transform: rotate(-4deg) translateX(5px);}
+	40%  { -moz-transform: rotate(-6deg) translateY(-15px);}
+	50% { -moz-transform: rotate(6deg) translateX(-10px);}
+	60 {-moz-transform: rotate(3deg) translateX(-5px);}
+	80% {-moz-transform: rotate(-7deg) translateX(5px);}
+}
+
+@keyframes rotate {
+	10% {transform: rotate(4deg) translateX(15px);}
+	20% {transform: rotate(-4deg) translateX(5px);}
+	40%  { transform: rotate(-6deg) translateY(-15px);}
+	50% { transform: rotate(6deg) translateX(-10px);}
+	60 {transform: rotate(3deg) translateX(-5px);}
+	80% {transform: rotate(-7deg) translateX(5px);}
+}
+
+
+.animation{
+
+-webkit-animation-name: rotate;
+-webkit-animation-duration: .45s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-fill-mode:forwards;
+
+
+
+-moz-animation: rotate .45s ease-in-out infinite;
+animation: rotate .45s ease-in-out infinite;
+}
+
+
